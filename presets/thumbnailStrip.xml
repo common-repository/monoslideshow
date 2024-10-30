@@ -1,0 +1,37 @@
+<configuration>
+	<transition type='zoomIn' time='1.5' strength='0.75' performOutro='true' kenBurnsMode='zoomIn' kenBurnsStrength='0.25' />
+	<pageIndicator margin='18,18,0' size='9' spacing='9' />
+	<caption position='bottomLeft' padding='9,18' margin='18'>
+		<title font=''Courier New', Courier, monospace' weight='bold' style='normal' size='24' />
+		<description font=''Courier New', Courier, monospace' color='#fff' size='12' />
+	</caption>
+	<controller type='none' padding='18,27' margin='18' iconSize='27' iconSpacing='27'>
+		<scrubBar height='9' width='179' backgroundColor='#555' loadingColor='#fff' progressColor='#ff2d46' />
+	</controller>
+	<navigation padding='27' margin='99'>
+		<caption margin='0,0,18'>
+			<title size='18' />
+			<description size='13' />
+		</caption>
+		<pageIndicator margin='18,18,0' size='9' spacing='9' />
+		<items width='90' height='90'>
+			<caption width='143' height='72' margin='4,0,0,4'>
+				<title size='13' />
+				<description size='11' />
+			</caption>
+		</items>
+		<albums width='143' height='108' padding='22' horizontalSpacing='9' verticalSpacing='9'>
+			<caption width='143' height='72' margin='9,0,0,9'>
+				<title size='13' />
+				<description size='11' />
+			</caption>
+		</albums>
+	</navigation>
+	<thumbnailNavigation type='normal' position='rightCenter' padding='9,18' margin='18' iconSize='20' iconMargin='9' iconMode='vertical'>
+		<gloss strength='0' />
+		<pageIndicator margin='18,18,0' size='9' spacing='9' />
+		<items rows='30' columns='1' width='64' height='64'>
+			<caption width='143' height='72' />
+		</items>
+	</thumbnailNavigation>
+</configuration>

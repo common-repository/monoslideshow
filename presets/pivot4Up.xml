@@ -1,0 +1,15 @@
+<configuration backgroundColor='#fff' groupItemsMin='4' groupItemsMax='4' groupGridHorizontalSpacing='10' groupGridVerticalSpacing='10'>
+	<transition type='pivot' time='1' strength='0.75' performOutro='true' kenBurnsMode='zoomOut' kenBurnsStrength='0.25' />
+	<controller type='none'>
+		<scrubBar backgroundColor='#555' loadingColor='#fff' progressColor='#ff2d46' />
+	</controller>
+	<sideButtons type='horizontal' backgroundColor='#000' backgroundAlpha='0.75' backgroundRadius='100' strokeWidth='2' strokeColor='#fff' strokeAlpha='0.92' padding='20' margin='40' autoHide='false' />
+	<navigation>
+		<items>
+			<caption margin='4,0,0,4' />
+		</items>
+		<albums>
+			<caption margin='8,0,0,8' />
+		</albums>
+	</navigation>
+</configuration>

@@ -1,0 +1,53 @@
+<configuration>
+	<transition type='cube' direction='bottomToTop' time='1.5' kenBurnsMode='zoomIn' kenBurnsStrength='0.25' />
+	<pageIndicator margin='18,18,0' size='9' spacing='9' />
+	<caption position='topCenter' textAlign='center' backgroundType='fitCompleteText' backgroundColor='#000' backgroundAlpha='0' backgroundRadius='0' padding='9,18' margin='18'>
+		<emboss strength='0.10' />
+		<title font='Tahoma, Geneva, sans-serif' weight='bold' style='normal' size='28'>
+			<shadow color='#000' alpha='0.65' size='2' />
+		</title>
+		<description type='none' font='"Palatino Linotype", "Book Antiqua", Palatino, serif' weight='bold' style='italic' color='#fff' size='12' />
+	</caption>
+	<controller backgroundColor='linear,270-#193545,0-#0a0621,1' backgroundRadius='2' padding='18,27' margin='18' iconSize='27' iconSpacing='27' iconColorUp='#fff' iconColorOver='#67ebbb' iconColorDown='#50b792' iconColorDisable='#43505c'>
+		<scrubBar height='9' width='179' backgroundColor='#888' loadingColor='#fff' progressColor='#67ebbb' />
+		<gloss strength='0.10' />
+	</controller>
+	<navigation backgroundColor='#040507' backgroundAlpha='0' backgroundRadius='2' strokeWidth='0' padding='27' margin='99' backgroundOverlayAlpha='0.8500000000000001'>
+		<caption margin='0,0,18'>
+			<title size='18' />
+			<description size='13' />
+		</caption>
+		<shadow color='#000' alpha='0' />
+		<gloss strength='0' />
+		<emboss size='0' />
+		<pageIndicator margin='18,18,0' size='9' spacing='9' />
+		<items width='90' height='90' imageRadius='2' backgroundRadius='1' backgroundColor='#1e2429'>
+			<caption width='143' height='72' margin='4,0,0,4'>
+				<title size='13' />
+				<description size='11' />
+			</caption>
+			<imageGloss strength='0.08' />
+			<gloss strength='0.04' />
+			<transition>
+				<imageGloss strength='0.08' />
+			</transition>
+		</items>
+		<albums width='143' height='108' imageRadius='0' backgroundRadius='1' backgroundColor='#1e2429' padding='22'>
+			<caption width='143' height='72' margin='9,0,0,9'>
+				<title size='13' />
+				<description size='11' />
+			</caption>
+			<imageGloss strength='0.04' />
+			<gloss strength='0.04' />
+		</albums>
+	</navigation>
+	<thumbnailNavigation backgroundColor='#1e2429' backgroundRadius='1' padding='9,18' margin='18' iconSize='27' iconMargin='9'>
+		<pageIndicator margin='18,18,0' size='9' spacing='9' />
+		<items width='54' height='54' imageRadius='0' backgroundRadius='0' backgroundColor='#1e2429'>
+			<caption width='143' height='72' />
+			<imageGloss strength='0.04' />
+			<gloss strength='0.04' />
+		</items>
+	</thumbnailNavigation>
+	<videoPlayButton iconColorUp='#fff' iconColorOver='#67ebbb' iconColorDown='#50b792' />
+</configuration>

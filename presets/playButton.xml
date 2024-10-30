@@ -1,0 +1,59 @@
+<configuration>
+	<transition type='pivot' time='0.7' strength='0.5' kenBurnsMode='zoomOut' kenBurnsStrength='0.25' />
+	<caption position='bottomLeft' backgroundColor='#000' backgroundAlpha='0.5' backgroundRadius='1' padding='4,12'>
+		<title size='24'>
+			<shadow color='#000' alpha='0.65' size='3' />
+		</title>
+		<description color='#fff' size='12'>
+			<shadow color='#000' alpha='0.65' size='3' />
+		</description>
+	</caption>
+	<controller position='bottomRight' backgroundColor='#000' backgroundAlpha='0.5' backgroundRadius='100' strokeWidth='0' strokeColor='#000' strokeAlpha='0.15' padding='12' autoHide='false' iconColorUp='#fff' iconColorOver='#404ecf' iconColorDown='#273191' iconColorDisable='#bdbdbd' showNavigationButton='false' showPreviousButton='false' showPlayButton='true' showNextButton='false' showNavigationCloseButton='false' showNavigationAlbumUpButton='false' showNavigationPreviousButton='false' showNavigationNextButton='false' showScrubBar='false'>
+		<scrubBar backgroundColor='#ccc' loadingColor='#fff' progressColor='#3543c4' />
+		<shadow color='#000' alpha='0.25' size='0' distance='0' />
+		<gloss strength='0.00' />
+		<emboss size='0' strength='0.00' />
+	</controller>
+	<navigation backgroundColor='#ddc6c6' backgroundRadius='6'>
+		<shadow color='#000' alpha='0.00' size='0' distance='0' />
+		<emboss size='0' strength='0.00' />
+		<items imageRadius='1' backgroundRadius='3' backgroundColor='#fff'>
+			<caption margin='4,0,0,4' />
+			<imageShadow color='#000' alpha='0.00' />
+			<imageGloss strength='0.00' />
+			<imageEmboss size='0' strength='0.00' />
+			<shadow color='#000' alpha='0.00' size='0' distance='0' />
+			<gloss strength='0.00' />
+			<emboss size='0' strength='0.00' />
+			<transition>
+				<imageShadow size='0' distance='0' />
+				<imageGloss strength='0.00' />
+			</transition>
+		</items>
+		<albums imageRadius='1' backgroundRadius='3' backgroundColor='#fff'>
+			<caption margin='8,0,0,8' />
+			<imageShadow color='#000' alpha='0.00' />
+			<imageGloss strength='0.00' />
+			<imageEmboss size='0' strength='0.00' />
+			<shadow color='#000' alpha='0.00' size='0' distance='0' />
+			<gloss strength='0.00' />
+			<emboss size='0' strength='0.00' />
+		</albums>
+	</navigation>
+	<thumbnailNavigation backgroundColor='#fff' backgroundRadius='3'>
+		<shadow color='#000' alpha='0.00' size='0' distance='0' />
+		<emboss size='0' strength='0.00' />
+		<items imageRadius='1' backgroundRadius='1' backgroundColor='#fff'>
+			<imageShadow color='#000' alpha='0.00' size='0' distance='0' />
+			<imageGloss strength='0.00' />
+			<imageEmboss size='0' strength='0.00' />
+			<shadow color='#000' alpha='0.00' size='0' distance='0' />
+			<gloss strength='0.00' />
+			<emboss size='0' strength='0.00' />
+			<transition>
+				<imageShadow size='0' distance='0' />
+			</transition>
+		</items>
+	</thumbnailNavigation>
+	<videoPlayButton iconColorUp='#fff' iconColorOver='#3543c4' iconColorDown='#273191' />
+</configuration>

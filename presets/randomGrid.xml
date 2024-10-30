@@ -1,0 +1,50 @@
+<configuration groupItemsMin='10' groupItemsMax='10'>
+	<transition type='push' direction='random' time='0.7' size='0.35' performOutro='true' />
+	<caption displayMode='never' position='bottomCenter' textAlign='center' backgroundType='fitCompleteText' backgroundColor='#000' backgroundAlpha='0.65' backgroundRadius='12' width='100%%%%'>
+		<transition type='moveIn' direction='bottomToTop' />
+		<emboss strength='0.10' />
+		<description color='#fff' />
+	</caption>
+	<controller type='none' backgroundRadius='50'>
+		<scrubBar backgroundColor='#555' loadingColor='#fff' progressColor='#ff2d46' />
+		<shadow color='#000' alpha='0.00' size='0' distance='0' />
+		<gloss strength='0.00' />
+	</controller>
+	<sideButtons type='horizontal' backgroundRadius='50' margin='30'>
+		<shadow color='#000' alpha='0.00' size='0' distance='0' />
+		<gloss strength='0.00' />
+	</sideButtons>
+	<navigation backgroundRadius='50'>
+		<shadow color='#000' alpha='0.00' size='0' distance='0' />
+		<items imageRadius='12' backgroundRadius='25'>
+			<caption margin='4,0,0,4' />
+			<imageShadow color='#000' alpha='0.00' />
+			<imageGloss strength='0.00' />
+			<shadow color='#000' alpha='0.00' size='0' distance='0' />
+			<gloss strength='0.00' />
+			<transition>
+				<imageShadow size='0' distance='0' />
+				<imageGloss strength='0.00' />
+			</transition>
+		</items>
+		<albums imageRadius='12' backgroundRadius='25'>
+			<caption margin='8,0,0,8' />
+			<imageShadow color='#000' alpha='0.00' />
+			<imageGloss strength='0.00' />
+			<shadow color='#000' alpha='0.00' size='0' distance='0' />
+			<gloss strength='0.00' />
+		</albums>
+	</navigation>
+	<thumbnailNavigation backgroundRadius='25'>
+		<shadow color='#000' alpha='0.00' size='0' distance='0' />
+		<items imageRadius='12' backgroundRadius='12'>
+			<imageShadow color='#000' alpha='0.00' size='0' distance='0' />
+			<imageGloss strength='0.00' />
+			<shadow color='#000' alpha='0.00' size='0' distance='0' />
+			<gloss strength='0.00' />
+			<transition>
+				<imageShadow size='0' distance='0' />
+			</transition>
+		</items>
+	</thumbnailNavigation>
+</configuration>

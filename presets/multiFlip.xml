@@ -1,0 +1,32 @@
+<configuration groupItemsMin='2' groupItemsMax='4'>
+	<transition type='flip' time='0.35' kenBurnsMode='zoomIn' kenBurnsStrength='0.25' />
+	<caption displayMode='never' position='topCenter' textAlign='center' backgroundType='fitCompleteText' backgroundRadius='2'>
+		<emboss strength='0.10' />
+		<title>
+			<shadow color='#000' alpha='0.75' size='6' />
+		</title>
+		<description color='#fff'>
+			<shadow color='#000' alpha='0.75' size='6' />
+		</description>
+	</caption>
+	<controller type='none' backgroundRadius='10' autoHide='false' />
+	<navigation backgroundRadius='10'>
+		<items imageRadius='2' backgroundRadius='5' backgroundColor='#ccc'>
+			<caption margin='4,0,0,4' />
+		</items>
+		<albums imageRadius='2' backgroundRadius='5'>
+			<caption margin='8,0,0,8' />
+		</albums>
+	</navigation>
+	<thumbnailNavigation type='normal' backgroundRadius='5' padding='20,10' margin='20' iconMargin='8,10'>
+		<items width='80' height='56' imageRadius='8' imageStrokeWidth='1' imageStrokeColor='#000' imageStrokeAlpha='0.35' backgroundRadius='12' backgroundColor='#dedede'>
+			<imageGloss roundness='0.1' />
+			<imageEmboss strength='0.35000000000000003' />
+			<gloss strength='0.25' />
+			<transition distanceY='-8' scale='1'>
+				<imageShadow size='0' distance='0' />
+				<imageGloss strength='0.25' />
+			</transition>
+		</items>
+	</thumbnailNavigation>
+</configuration>
